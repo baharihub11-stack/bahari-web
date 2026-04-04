@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bahari Network Whitepaper v2.0</title>
+<title>Bahari Network Whitepaper v4.0</title>
+
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 
@@ -13,7 +14,6 @@ body {
     color:#94a3b8;
     font-family:'Plus Jakarta Sans',sans-serif;
 }
-.glow { color:#2CB1B1; }
 .card {
     background:rgba(30,41,59,0.5);
     backdrop-filter:blur(10px);
@@ -28,7 +28,8 @@ h2 {
     margin-bottom:15px;
     letter-spacing:2px;
 }
-.small { font-size:12px; }
+.glow { color:#2CB1B1; }
+.small { font-size:13px; }
 </style>
 </head>
 
@@ -36,177 +37,196 @@ h2 {
 
 <!-- HEADER -->
 <div class="text-center mb-16">
-    <h1 class="text-5xl font-extrabold text-white">BAHARI <span class="glow">NETWORK</span></h1>
-    <p class="text-slate-500 mt-2 text-sm">Decentralized Participation Protocol</p>
+    <h1 class="text-5xl font-extrabold text-white">
+        BAHARI <span class="glow">NETWORK</span>
+    </h1>
+    <p class="text-slate-500 mt-2 text-sm">
+        Sustainable Mobile-First Digital Asset Protocol
+    </p>
 </div>
 
 <!-- 1 -->
 <div class="card">
-<h2>1. Executive Summary</h2>
+<h2>1. Overview</h2>
 <p class="small">
-Bahari Network is a mobile-first digital asset distribution system designed to lower the barrier of entry into blockchain participation.
-Unlike traditional mining systems that require expensive hardware, Bahari introduces a <b>Proof-of-Activity model</b>, where users earn rewards through verified daily engagement.
+Bahari Network is a mobile-first digital asset platform designed to make participation in crypto ecosystems accessible to everyone.
 </p>
 
 <p class="small mt-3">
-The goal is to build a large, verified user base before transitioning to a fully functional on-chain ecosystem where BHR acts as a utility token.
+Users earn BHR through simple daily activity without requiring expensive hardware or upfront investment.
+</p>
+
+<p class="small mt-3">
+The system begins off-chain for scalability and will transition to blockchain infrastructure in later phases.
 </p>
 </div>
 
 <!-- 2 -->
 <div class="card">
-<h2>2. Token Overview (BHR)</h2>
+<h2>2. Token (BHR)</h2>
 
-<p class="small mb-4"><b>Maximum Supply:</b> 210,000,000 BHR (Fixed)</p>
+<p class="small"><b>Maximum Supply:</b> 210,000,000 BHR</p>
 
-<ul class="small space-y-2">
-<li><b>Community Distribution:</b> 78%</li>
-<li><b>Development Reserve:</b> 10%</li>
-<li><b>Ecosystem & Utility:</b> 12%</li>
+<ul class="small mt-3 space-y-2">
+<li>Community Distribution: 78%</li>
+<li>Development: 10%</li>
+<li>Ecosystem Growth: 12%</li>
 </ul>
 
-<p class="small mt-4">
-All allocations are locked and released gradually under a 24-month vesting schedule to prevent supply shocks.
+<p class="small mt-3">
+Token release follows a controlled vesting schedule to maintain long-term stability.
 </p>
 </div>
 
 <!-- 3 -->
 <div class="card">
-<h2>3. Earning Model (Proof of Activity)</h2>
+<h2>3. Earning Model</h2>
 
 <p class="small">
-Users earn BHR through daily verified participation inside the Bahari application.
-</p>
-
-<div class="mt-4 small">
-<b>Current Base Rate:</b> 2.60 BHR / 24 hours<br>
-<b>After Halving:</b> 1.30 BHR / 24 hours
-</div>
-
-<p class="small mt-4">
-The system uses a <b>Halving Mechanism</b> where rewards decrease by 50% as the network grows.
+Users earn BHR through verified daily participation inside the app.
 </p>
 
 <p class="small mt-3">
-This ensures:
+<b>Current Rate:</b> 2.60 BHR / 24 hours<br>
+<b>After Halving:</b> 1.30 BHR / 24 hours
 </p>
-<ul class="small list-disc ml-5">
-<li>Early adopters are rewarded</li>
-<li>Token scarcity increases over time</li>
-<li>Total supply is controlled</li>
-</ul>
 
-<p class="small mt-4">
+<p class="small mt-3">
 Reward Formula:
-<br><br>
-<b>Daily Reward = Base Rate × (1/2)<sup>n</sup></b>
-<br><br>
-Where:
-<br>
-n = number of halving events
 </p>
 
+<p class="small">
+<b>Reward = Base × (1/2)<sup>n</sup></b>
+</p>
+
+<p class="small mt-3">
+This halving system ensures decreasing issuance, protects supply, and rewards early adopters.
+</p>
 </div>
 
 <!-- 4 -->
 <div class="card">
-<h2>4. Anti-Abuse & Verification</h2>
+<h2>4. Why Ads Exist (Sustainability Model)</h2>
 
 <p class="small">
-To maintain fairness, Bahari Network implements multiple verification layers:
+Bahari Network uses a light, non-intrusive advertising model (such as AdMob) to fund the ecosystem.
 </p>
 
-<ul class="small list-disc ml-5 mt-3">
-<li>Device-level validation</li>
-<li>Behavioral activity checks</li>
-<li>Future KYC verification (Phase II)</li>
+<p class="small mt-3">
+Instead of charging users fees or requiring deposits, ads allow the platform to remain free and accessible.
+</p>
+
+<p class="small mt-3">
+This creates a fair system where:
+</p>
+
+<ul class="small list-disc ml-5 mt-2">
+<li>Users earn without financial risk</li>
+<li>The platform generates real revenue</li>
+<li>The ecosystem can sustain long-term growth</li>
 </ul>
 
 <p class="small mt-3">
-These systems ensure that rewards go only to real users, preventing bot farming and exploitation.
-</p>
-</div>
-
-<!-- 5 -->
-<div class="card">
-<h2>5. Sustainability Model</h2>
-
-<p class="small">
-Bahari introduces a revenue-backed ecosystem to support long-term stability.
-</p>
-
-<ul class="small list-disc ml-5 mt-3">
-<li>Ad-based revenue (non-intrusive)</li>
-<li>Premium in-app features</li>
-<li>Task & quest marketplace</li>
-</ul>
-
-<p class="small mt-4">
 <b>30% of net revenue</b> is allocated to:
 </p>
 
 <ul class="small list-disc ml-5">
 <li>Liquidity support</li>
-<li>Market buyback</li>
-<li>Token burn events</li>
+<li>Token buybacks</li>
+<li>Supply reduction (burn events)</li>
 </ul>
 
 <p class="small mt-3">
-All buyback operations will be publicly trackable once on-chain.
+Ads are designed to be minimal and never interrupt core user experience.
+</p>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<h2>5. System Architecture</h2>
+
+<p class="small">
+Phase I operates as an off-chain reward system for speed and scalability.
+</p>
+
+<p class="small mt-3">
+Phase II introduces identity verification and wallet infrastructure.
+</p>
+
+<p class="small mt-3">
+Phase III enables blockchain integration and token transfers.
 </p>
 </div>
 
 <!-- 6 -->
 <div class="card">
-<h2>6. Utility of BHR</h2>
+<h2>6. Utility</h2>
 
-<p class="small">
-BHR is designed as a utility token within the Bahari ecosystem:
-</p>
-
-<ul class="small list-disc ml-5 mt-3">
-<li>Payments inside marketplace</li>
-<li>Access to premium features</li>
-<li>Participation in digital services</li>
-<li>Future staking mechanisms</li>
+<ul class="small list-disc ml-5 space-y-2">
+<li>Marketplace transactions</li>
+<li>Premium app features</li>
+<li>Digital service payments</li>
+<li>Future staking participation</li>
 </ul>
 </div>
 
 <!-- 7 -->
 <div class="card">
-<h2>7. Roadmap</h2>
+<h2>7. Security</h2>
 
-<p class="small"><b>Phase I – Distribution</b><br>
-User growth and token accumulation via mobile app</p>
-
-<p class="small mt-3"><b>Phase II – Verification</b><br>
-KYC rollout, anti-bot systems, wallet beta launch</p>
-
-<p class="small mt-3"><b>Phase III – Mainnet</b><br>
-Token migration, exchange listings, utility expansion</p>
+<ul class="small list-disc ml-5 space-y-2">
+<li>AES-256 encryption</li>
+<li>Secure infrastructure</li>
+<li>Planned third-party smart contract audit</li>
+</ul>
 </div>
 
 <!-- 8 -->
 <div class="card">
-<h2>8. Security</h2>
+<h2>8. Transparency</h2>
+
+<ul class="small list-disc ml-5 space-y-2">
+<li>Public whitepaper updates</li>
+<li>Future open-source components</li>
+<li>On-chain verification (Phase III)</li>
+</ul>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<h2>9. Team</h2>
 
 <p class="small">
-Bahari Network applies industry-standard security practices:
+Bahari Network is built by a distributed team focused on creating accessible digital infrastructure.
 </p>
 
-<ul class="small list-disc ml-5 mt-3">
-<li>AES-256 data encryption</li>
-<li>Secure cloud infrastructure</li>
-<li>Non-custodial wallet (Phase II)</li>
-<li>Smart contract audit before mainnet</li>
-</ul>
+<p class="small mt-3">
+Additional team details may be disclosed as the project evolves.
+</p>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<h2>10. FAQ</h2>
+
+<p class="small"><b>Is Bahari a blockchain?</b><br>
+Not yet. It will transition in later phases.</p>
+
+<p class="small mt-3"><b>Why are there ads?</b><br>
+Ads fund the system so users can earn without paying.</p>
+
+<p class="small mt-3"><b>Can I withdraw now?</b><br>
+Withdrawals will be enabled after mainnet launch.</p>
+
+<p class="small mt-3"><b>Is this mining?</b><br>
+No. It is a reward-based participation system.</p>
 </div>
 
 <!-- FOOTER -->
 <div class="text-center mt-16 text-xs text-slate-500">
 <p>© 2026 Bahari Network</p>
 <p class="mt-2">
-This document is for informational purposes only. BHR is a utility token and does not guarantee financial returns.
+BHR is a utility token. No guaranteed financial returns.
 </p>
 </div>
 
