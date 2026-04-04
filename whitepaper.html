@@ -55,6 +55,14 @@
             border-radius: 50%;
             box-shadow: 0 0 10px #2CB1B1;
         }
+        b { color: #f8fafc; }
+        .highlight-box { 
+            background: linear-gradient(90deg, rgba(44, 177, 177, 0.1), transparent);
+            border-left: 2px solid #2CB1B1;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 13px;
+        }
     </style>
 </head>
 <body class="p-6 md:p-20 max-w-4xl mx-auto">
@@ -69,15 +77,20 @@
     </div>
 
     <div class="glass-card">
-        <h2>01. The Global Vision</h2>
+        <h2>01. Executive Summary</h2>
         <p class="text-sm leading-relaxed">
             Bahari Network is a decentralized architecture engineered to facilitate <b>Network Sovereignty</b>. We reject the high-barrier entry models of traditional digital mining. By implementing a mobile-first <b>Protocol of Presence</b>, Bahari empowers a global community of Pioneers to participate in a high-scarcity ecosystem with zero hardware friction.
         </p>
+        <div class="highlight-box">
+            The Bahari protocol operates on a meritocratic distribution model, rewarding consistent engagement through proof-of-activity rather than expensive hardware investment.
+        </div>
     </div>
 
     <div class="glass-card">
         <h2>02. Asset Scarcity (BHR)</h2>
         <p class="text-xs text-teal-400 font-bold mb-4">FIXED MAXIMUM SUPPLY: 210,000,000 BHR</p>
+        <p class="text-sm mb-6">The BHR token is designed as a deflationary utility asset. Unlike traditional fiat or inflationary tokens, BHR follows a strictly capped supply modeled after the principles of digital gold.</p>
+        
         <div class="stat-grid">
             <div class="stat-item">
                 <p class="text-[10px] uppercase tracking-wider text-slate-500">Community Minting</p>
@@ -96,31 +109,56 @@
                 <p class="text-lg font-bold text-white">24 Months</p>
             </div>
         </div>
-        <p class="text-[11px] mt-6 italic text-slate-500">Note: Token issuance is governed by an automated halving mechanism to preserve long-term asset velocity.</p>
+        <p class="text-[11px] mt-6 italic text-slate-500">Note: Token issuance is governed by an automated <b>Halving Mechanism</b>. Mining rates decrease by 50% as the active user base reaches specific milestones, ensuring scarcity increases over time.</p>
     </div>
 
     <div class="glass-card">
-        <h2>03. Strategic Roadmap</h2>
+        <h2>03. Sustainability & Buyback</h2>
+        <p class="text-sm leading-relaxed mb-4">
+            Bahari Network is the first community mining project to implement a <b>Revenue-Backed Sustainability Loop</b>. This creates a closed economy where platform success directly correlates to asset stability.
+        </p>
+        <ul class="text-[12px] space-y-3 list-disc list-inside">
+            <li><b>Revenue Generation:</b> Non-intrusive ad-revenue and premium quest integrations fund the ecosystem infrastructure.</li>
+            <li><b>Liquidity Injection:</b> 30% of platform net-revenue is allocated to the Liquidity Support Fund.</li>
+            <li><b>Buyback & Burn:</b> Strategic buybacks from the open market are conducted to maintain a healthy circulating supply, creating deflationary pressure.</li>
+        </ul>
+    </div>
+
+    <div class="glass-card">
+        <h2>04. Strategic Roadmap</h2>
         
         <div class="phase-step">
-            <h3 class="text-white font-bold text-sm">PHASE I: GENESIS & DISTRIBUTION</h3>
-            <p class="text-[11px] mt-2">Global deployment of the Bahari interface. Focus on viral network expansion and high-velocity community acquisition. Verification of baseline ledger stability.</p>
+            <div class="flex justify-between items-start">
+                <h3 class="text-white font-bold text-sm">PHASE I: GENESIS & DISTRIBUTION</h3>
+                <span class="text-[9px] text-teal-400 font-bold border border-teal-400/30 px-2 rounded">CURRENT</span>
+            </div>
+            <p class="text-[11px] mt-2">Global deployment of the Bahari interface. Focus on viral network expansion and high-velocity community acquisition. Verification of baseline ledger stability through initial mining cycles.</p>
+            <p class="text-[10px] mt-2 text-slate-500">Target: 100,000 Verified Pioneers</p>
         </div>
 
         <div class="phase-step">
             <h3 class="text-white font-bold text-sm">PHASE II: INTEGRITY & UTILITY</h3>
-            <p class="text-[11px] mt-2">Implementation of the <b>Authentication Protocol (KYC)</b>. Integration of non-intrusive revenue models to scale infrastructure. Deployment of the Bahari non-custodial wallet beta.</p>
+            <p class="text-[11px] mt-2">Implementation of the <b>Authentication Protocol (KYC)</b> to eliminate bot activity. Integration of non-intrusive revenue models to scale infrastructure. Deployment of the <b>Bahari Non-Custodial Wallet</b> (Beta) and the Quest Marketplace.</p>
+            <p class="text-[10px] mt-2 text-slate-500">Target: 500,000 Verified Pioneers</p>
         </div>
 
-        <div class="phase-step" style="border: none;">
+        <div class="phase-step" style="border: none; margin-bottom: 0;">
             <h3 class="text-white font-bold text-sm">PHASE III: EXCHANGE & MAINNET</h3>
-            <p class="text-[11px] mt-2">Finalization of technical standards for <b>CEX and DEX</b> exchange listings. Transition of verified balances to the permanent Mainnet. Expansion into a cross-border utility marketplace.</p>
+            <p class="text-[11px] mt-2">Finalization of technical standards for <b>CEX and DEX</b> exchange listings. Transition of verified balances to the permanent Mainnet. Expansion into a cross-border utility marketplace where BHR acts as the primary medium of exchange.</p>
+            <p class="text-[10px] mt-2 text-slate-500">Target: 1,000,000+ Verified Pioneers</p>
         </div>
+    </div>
+
+    <div class="glass-card">
+        <h2>05. Security Architecture</h2>
+        <p class="text-sm leading-relaxed">
+            Our infrastructure utilizes <b>AES-256 Encryption</b> and cloud-native database architecture. The Bahari smart contract will undergo a third-party security audit (CertiK/Hacken) prior to Phase III migration to ensure total fund security for all Pioneers.
+        </p>
     </div>
 
     <div class="text-center mt-20 opacity-40">
         <p class="text-[9px] font-bold tracking-[0.5em] text-slate-400">© 2026 BAHARI NETWORK ECOSYSTEM</p>
-        <p class="text-[8px] mt-4 max-w-xs mx-auto">This document serves as a technical outline. The BHR asset is a utility-based reward for network participation and holds no inherent guarantee of financial return.</p>
+        <p class="text-[8px] mt-4 max-w-xs mx-auto">This document serves as a technical outline. The BHR asset is a utility-based reward for network participation and holds no inherent guarantee of financial return. Participation is subject to local regulations.</p>
     </div>
 
 </body>
